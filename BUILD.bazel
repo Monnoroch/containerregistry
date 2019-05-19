@@ -38,6 +38,7 @@ par_binary(
     main = "tools/docker_appender_.py",
     visibility = ["//visibility:public"],
     deps = [":containerregistry"],
+    python_version = "PY2"
 )
 
 par_binary(
@@ -46,6 +47,7 @@ par_binary(
     main = "tools/fast_puller_.py",
     visibility = ["//visibility:public"],
     deps = [":containerregistry"],
+    python_version = "PY2"
 )
 
 par_binary(
@@ -54,6 +56,7 @@ par_binary(
     main = "tools/fast_flatten_.py",
     visibility = ["//visibility:public"],
     deps = [":containerregistry"],
+    python_version = "PY2"
 )
 
 par_binary(
@@ -62,6 +65,7 @@ par_binary(
     main = "tools/fast_importer_.py",
     visibility = ["//visibility:public"],
     deps = [":containerregistry"],
+    python_version = "PY2"
 )
 
 par_binary(
@@ -70,6 +74,7 @@ par_binary(
     main = "tools/fast_pusher_.py",
     visibility = ["//visibility:public"],
     deps = [":containerregistry"],
+    python_version = "PY2"
 )
 
 par_binary(
@@ -78,6 +83,7 @@ par_binary(
     main = "tools/image_digester_.py",
     visibility = ["//visibility:public"],
     deps = [":containerregistry"],
+    python_version = "PY2"
 )
 
 sh_test(
